@@ -1,0 +1,8 @@
+# Creating a virtual env
+python3 -m venv venv
+
+# Activating virtual env
+source venv/bin/activate
+
+# To freeze package version in txt file
+pip freeze > requirements.txt
